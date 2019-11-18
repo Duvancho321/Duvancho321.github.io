@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>About This Website</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+<html lang="en-us"><head>
+	<meta name="generator" content="Hugo 0.59.1">
+	<meta charset="utf-8">
+
+	<title></title>
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<link rel="stylesheet" href="https://themes.gohugo.io//theme/hugo-initio/css/styles.css">
+
+<style type="text/css">.vue-slider-dot{position:absolute;will-change:transform;-webkit-transition:all 0s;transition:all 0s;z-index:5}.vue-slider-dot-tooltip{position:absolute;visibility:hidden}.vue-slider-dot-tooltip-show{visibility:visible}.vue-slider-dot-tooltip-top{top:-10px;left:50%;-webkit-transform:translate(-50%,-100%);transform:translate(-50%,-100%)}.vue-slider-dot-tooltip-bottom{bottom:-10px;left:50%;-webkit-transform:translate(-50%,100%);transform:translate(-50%,100%)}.vue-slider-dot-tooltip-left{left:-10px;top:50%;-webkit-transform:translate(-100%,-50%);transform:translate(-100%,-50%)}.vue-slider-dot-tooltip-right{right:-10px;top:50%;-webkit-transform:translate(100%,-50%);transform:translate(100%,-50%)}</style><style type="text/css">.vue-slider-marks{position:relative;width:100%;height:100%}.vue-slider-mark{position:absolute;z-index:1}.vue-slider-ltr .vue-slider-mark,.vue-slider-rtl .vue-slider-mark{width:0;height:100%;top:50%}.vue-slider-ltr .vue-slider-mark-step,.vue-slider-rtl .vue-slider-mark-step{top:0}.vue-slider-ltr .vue-slider-mark-label,.vue-slider-rtl .vue-slider-mark-label{top:100%;margin-top:10px}.vue-slider-ltr .vue-slider-mark{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.vue-slider-ltr .vue-slider-mark-step{left:0}.vue-slider-ltr .vue-slider-mark-label{left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.vue-slider-rtl .vue-slider-mark{-webkit-transform:translate(50%,-50%);transform:translate(50%,-50%)}.vue-slider-rtl .vue-slider-mark-step{right:0}.vue-slider-rtl .vue-slider-mark-label{right:50%;-webkit-transform:translateX(50%);transform:translateX(50%)}.vue-slider-btt .vue-slider-mark,.vue-slider-ttb .vue-slider-mark{width:100%;height:0;left:50%}.vue-slider-btt .vue-slider-mark-step,.vue-slider-ttb .vue-slider-mark-step{left:0}.vue-slider-btt .vue-slider-mark-label,.vue-slider-ttb .vue-slider-mark-label{left:100%;margin-left:10px}.vue-slider-btt .vue-slider-mark{-webkit-transform:translate(-50%,50%);transform:translate(-50%,50%)}.vue-slider-btt .vue-slider-mark-step{top:0}.vue-slider-btt .vue-slider-mark-label{top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.vue-slider-ttb .vue-slider-mark{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.vue-slider-ttb .vue-slider-mark-step{bottom:0}.vue-slider-ttb .vue-slider-mark-label{bottom:50%;-webkit-transform:translateY(50%);transform:translateY(50%)}.vue-slider-mark-label,.vue-slider-mark-step{position:absolute}</style><style type="text/css">.vue-slider{position:relative;-webkit-box-sizing:content-box;box-sizing:content-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:block;-ms-touch-action:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.vue-slider-disabled{pointer-events:none}.vue-slider-rail{position:relative;width:100%;height:100%;-webkit-transition-property:width,height,left,right,top,bottom;transition-property:width,height,left,right,top,bottom}.vue-slider-process{position:absolute;z-index:1}.vue-slider-sr-only{clip:rect(1px,1px,1px,1px);height:1px;width:1px;overflow:hidden;position:absolute!important}</style><style type="text/css">/* component style */
+.vue-slider-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* rail style */
+.vue-slider-rail {
+  background-color: #ccc;
+  border-radius: 15px;
+}
+
+
+/* process style */
+.vue-slider-process {
+  background-color: #3498db;
+  border-radius: 15px;
+}
+
+/* mark style */
+.vue-slider-mark {
+  z-index: 4;
+}
+.vue-slider-mark:first-child .vue-slider-mark-step, .vue-slider-mark:last-child .vue-slider-mark-step {
+  display: none;
+}
+.vue-slider-mark-step {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.16);
+}
+.vue-slider-mark-label {
+  font-size: 14px;
+  white-space: nowrap;
+}
+/* dot style */
+.vue-slider-dot-handle {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0.5px 0.5px 2px 1px rgba(0, 0, 0, 0.32);
+}
+.vue-slider-dot-handle-focus {
+  box-shadow: 0px 0px 1px 2px rgba(52, 152, 219, 0.36);
+}
+
+.vue-slider-dot-handle-disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+.vue-slider-dot-tooltip-inner {
+  font-size: 14px;
+  white-space: nowrap;
+  padding: 2px 5px;
+  min-width: 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  border-color: #3498db;
+  background-color: #3498db;
+  box-sizing: content-box;
+}
+.vue-slider-dot-tooltip-inner::after {
+  content: "";
+  position: absolute;
+}
+.vue-slider-dot-tooltip-inner-top::after {
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 0;
+  width: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px;
+  border-top-color: inherit;
+}
+.vue-slider-dot-tooltip-inner-bottom::after {
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 0;
+  width: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px;
+  border-bottom-color: inherit;
+}
+.vue-slider-dot-tooltip-inner-left::after {
+  left: 100%;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 0;
+  width: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px;
+  border-left-color: inherit;
+}
+.vue-slider-dot-tooltip-inner-right::after {
+  right: 100%;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 0;
+  width: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px;
+  border-right-color: inherit;
+}
+
+.vue-slider-dot-tooltip-wrapper {
+  opacity: 0;
+  transition: all 0.3s;
+}
+.vue-slider-dot-tooltip-wrapper-show {
+  opacity: 1;
+}
+</style><style type="text/css">
+@font-face{font-family:'Didact Gothic';font-style:normal;font-weight:700;src:url("chrome-extension://__MSG_@@extension_id__/assets/fonts/DidactGothic-Regular.woff")
+}
+.Main__controls_1d7bsga8[data-v-30ba847e]{width:100%;max-width:510px;position:fixed;padding:0px 11px;user-select:none;z-index:10000000;background:white;border:2px solid black;display:flex;align-items:center
+}
+
+/* Imagen fondo sobre barra by Duvan */
+
+.home #head {
+    padding: 90px 0;
+}
+#head {
+    background: #f4f4f4 url(./images/pic.png) top center;
+    background-size: cover;
+    color: #7C7C7C;
+    padding: 30px 0 35px 0;
+}
+
+
+
+/* pantalla completa by Duvan */
+
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Main__controls_1d7bsga8 .Main__play-btn-wrap_x5pQSEfb[data-v-30ba847e]{margin:0 0px
+}
+.Main__controls_1d7bsga8 .Main__play-btn-wrap_x5pQSEfb div[data-v-30ba847e]{cursor:pointer;height:32px;width:30px;display:flex;align-items:center;justify-content:center
+}
+.Main__controls_1d7bsga8 .Main__play-btn-wrap_x5pQSEfb svg[data-v-30ba847e]{width:14px;height:auto;cursor:pointer
+}
+.Main__controls_1d7bsga8 .Main__controls-wrap_3U3nEvol[data-v-30ba847e]{display:flex;flex:1;padding:8px 0;align-items:center
+}
+.Main__controls_1d7bsga8 .Main__controls-wrap_3U3nEvol .Main__time_IdhjO9hP[data-v-30ba847e]{white-space:nowrap;margin-right:10px;margin-left:2px;font-size:10px;font-family:"Didact Gothic"
+}
+.Main__controls_1d7bsga8 .Main__controls-wrap_3U3nEvol .Main__progress_PWbxBj3c[data-v-30ba847e]{margin:0 5px;max-width:343px;width:100%
+}
+.Main__controls_1d7bsga8 .Main__controls-wrap_3U3nEvol .Main__duration_2uU0QLly[data-v-30ba847e]{margin-left:5px;margin-right:5px;font-size:10px;font-family:"Didact Gothic"
+}
+.Main__controls_1d7bsga8 .Main__controls-wrap_3U3nEvol .Main__volume_2sFz3dVC[data-v-30ba847e]{margin:0 5px;width:100px
+}
+.Main__tl_2eCs-W85[data-v-30ba847e]{top:15%;right:calc(100% - 38px);padding-right:3px
+}
+.Main__tl_2eCs-W85 .Main__play-btn-wrap_x5pQSEfb div[data-v-30ba847e]{margin-left:5px
+}
+.Main__tl_2eCs-W85[data-v-30ba847e]:hover{right:unset;left:-4px;padding-right:11px;padding-left:0px
+}
+.Main__tl_2eCs-W85:hover .Main__play-btn-wrap_x5pQSEfb[data-v-30ba847e]{order:0
+}
+.Main__tl_2eCs-W85:hover .Main__play-btn-wrap_x5pQSEfb div[data-v-30ba847e]{padding-left:5px;margin-left:unset
+}
+.Main__tl_2eCs-W85 .Main__play-btn-wrap_x5pQSEfb[data-v-30ba847e]{order:1
+}
+.Main__bl_3NKsjgYi[data-v-30ba847e]{bottom:15%;right:calc(100% - 38px);padding-right:3px
+}
+.Main__bl_3NKsjgYi .Main__play-btn-wrap_x5pQSEfb div[data-v-30ba847e]{margin-left:5px
+}
+.Main__bl_3NKsjgYi[data-v-30ba847e]:hover{right:unset;left:-4px;padding-right:11px;padding-left:0px
+}
+.Main__bl_3NKsjgYi:hover .Main__play-btn-wrap_x5pQSEfb[data-v-30ba847e]{order:0
+}
+.Main__bl_3NKsjgYi:hover .Main__play-btn-wrap_x5pQSEfb div[data-v-30ba847e]{padding-left:5px;margin-left:unset
+}
+.Main__bl_3NKsjgYi .Main__play-btn-wrap_x5pQSEfb[data-v-30ba847e]{order:1
+}
+.Main__tr_3I2WpakI[data-v-30ba847e]{top:15%;left:calc(100% - 38px);padding-left:3px
+}
+.Main__tr_3I2WpakI .Main__play-btn-wrap_x5pQSEfb div[data-v-30ba847e]{margin-right:5px
+}
+.Main__tr_3I2WpakI[data-v-30ba847e]:hover{left:unset;right:-4px;padding-right:5px;padding-left:11px
+}
+.Main__tr_3I2WpakI:hover .Main__play-btn-wrap_x5pQSEfb[data-v-30ba847e]{order:1;margin-left:10px
+}
+.Main__tr_3I2WpakI:hover .Main__play-btn-wrap_x5pQSEfb div[data-v-30ba847e]{margin-right:unset
+}
+.Main__tr_3I2WpakI .Main__play-btn-wrap_x5pQSEfb[data-v-30ba847e]{order:0
+}
+.Main__br_1ErROjdI[data-v-30ba847e]{bottom:15%;left:calc(100% - 38px);padding-left:3px
+}
+.Main__br_1ErROjdI .Main__play-btn-wrap_x5pQSEfb div[data-v-30ba847e]{margin-right:5px
+}
+.Main__br_1ErROjdI[data-v-30ba847e]:hover{left:unset;right:-4px;padding-right:5px;padding-left:11px
+}
+.Main__br_1ErROjdI:hover .Main__play-btn-wrap_x5pQSEfb[data-v-30ba847e]{order:1;margin-left:10px
+}
+.Main__br_1ErROjdI:hover .Main__play-btn-wrap_x5pQSEfb div[data-v-30ba847e]{margin-right:unset
+}
+.Main__br_1ErROjdI .Main__play-btn-wrap_x5pQSEfb[data-v-30ba847e]{order:0
+}
+</style><style type="text/css">
+.vue-slider-process,.vue-slider-dot{transition:none !important
+}
+.vue-slider{cursor:pointer
+}
+.vue-slider-dot-tooltip{display:none !important
+}
+.vue-slider-dot{background:black !important;border-radius:50%;box-shadow:none;height:12px !important;width:12px !important
+}
+.vue-slider-dot-handle{background:transparent !important;box-shadow:none
+}
+.vue-slider-rail{background:#f2f2f2 !important
+}
+.vue-slider-process{background:black !important
+}
+.vue-slider{height:2px !important
+}
+</style></head>
+<body class="home">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2" style="background-position: center -53.0769px;">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="./images/avatarc.png" alt="">
+			<span class="title">Duvan Nieves</span>
+			<span class="tagline" style="color: black;" > Beginner in data analysis <br>
+				<a href="mailto:duvannieves@misena.edu.co" style="color: black;">Contact</a>
+            </span>
+		</h1>
+	</div>
+
+    <nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+                
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-fake" style="display: none; height: 63.9952px;"></nav>
+
+
+</header>
+
+<main id="main">
+
+	<div class="container">
+	</div>	
+
+</main>
+
+<div></div>
+
+<script src="https://themes.gohugo.io//theme/hugo-initio/js/template.js"></script>
+
+</body></html>
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">About This Website</h1>
+
+</div>
+
+
+<p>More about this website.</p>
+<!-- Aca inicia el footer -->
+</div>
+<div>
+
+<footer id="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-3 widget">
+<h3 class="widget-title">
+Contact
+</h3>
+<div class="widget-body">
+<p>
++57<br><a href="mailto:duvanieves@misena.edu.co">e-mail</a><br>Pilarica Robledo, Medellín, Colombia
+</p>
+</div>
+</div>
+<div class="col-md-3 widget">
+<h3 class="widget-title">
+Follow me
+</h3>
+<div class="widget-body">
+<p class="follow-me-icons">
+<a href="https://www.facebook.com/Duvancho321" target="_blank"><i class="fa fa-facebook-square fa-2"></i></a> <a href="https://twitter.com/DuvanNievesRui1" target="_blank"><i class="fa fa-twitter-square fa-2"></i></a> <a href="https://www.instagram.com/el.individuo" target="_blank"><i class="fa fa-instagram fa-2"></i></a> <a href="https://github.com/Duvancho321" target="_blank"><i class="fa fa-github fa-2"></i></a>
+</p>
+</div>
+</div>
+<div class="col-md-3 widget">
+<h3 class="widget-title">
+Text widget
+</h3>
+<div class="widget-body">
+<p align="justify">
+Necesitamos tomar la información, donde esté guardada, hacer nuestras copias y compartirlas con el mundo. Necesitamos tomar las cosas que no tengan copyright y añadirlas al archivo. Necesitamos pelear por el Guerilla Open Access. Suficientes de nosotros, alrededor del mundo, no solo mandaremos un mensaje fuerte que se opone a la privatización del conocimiento - lo haremos una cosa del pasado. ¿Te unirás a nosotros?
+</p>
+</div>
+</div>
+<div class="col-md-3 widget">
+<h3 class="widget-title">
+Contact
+</h3>
+<div class="widget-body">
+<p>
++57<br><a href="mailto:duvanieves@misena.edu.co">e-mail</a><br>Pilarica Robledo, Medellín, Colombia
+</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<footer id="underfooter">
+<div class="container">
+<div class="row">
+<div class="col-md-6 widget">
+<div class="widget-body">
+<p>
+Pilarica Robledo, Medellín, Colombia
+</p>
+</div>
+</div>
+<div class="col-md-6 widget">
+<div class="widget-body">
+<p class="text-right">
+Copyleft© 2019, Duvan Nieves <br>Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
