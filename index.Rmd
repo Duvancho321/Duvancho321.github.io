@@ -3,7 +3,9 @@ title: ""
 
 ---
 
-<h2 class="section-title"><span>Recent Works</span></h2>
+<div class="col-sm-8 col-sm-offset-2">
+
+<h2 class="section-title"><span>TRABAJOS RECIENTES</span></h2>
 
 <html>
 <head>
@@ -32,22 +34,22 @@ div.desc {
 <body>
 
 <div class="gallery">
-  <a class="thumbnail"  target="_blank" href="img_mountains.jpg">
+  <a class="thumbnail"  target="_blank" href="https://github.com/Duvancho321/Tidyuesday">
          <span class="img">
-           <img src="images/pic.png" alt="">
+           <img src="images/tt.png" alt="">
            <span class="cover"><span class="more">See details →</span></span>
        </span>
-       <span class="title">Titulo</span>
+       <span class="title">Tidytuesday</span>
   </a>
 </div>
 
 <div class="gallery">
-  <a class="thumbnail"  target="_blank" href="img_mountains.jpg">
+  <a class="thumbnail"  target="_blank" href="https://github.com/Duvancho321/Datos_de_miercoles">
          <span class="img">
-           <img src="images/pic.png" alt="">
+           <img src="images/r4ds.jpg" alt="">
            <span class="cover"><span class="more">See details →</span></span>
        </span>
-       <span class="title">Titulo</span>
+       <span class="title">Datos de miercoles</span>
   </a>
 </div>
 
@@ -84,6 +86,8 @@ div.desc {
 </body>
 </html>
 
+</div>
+
 <!-- Aca inicia el footer -->
 </div>
 <div> 
@@ -105,6 +109,7 @@ div.desc {
 <a href="https://twitter.com/DuvanNievesRui1" target="_blank"><i class="fa fa-twitter-square fa-2"></i></a>
 <a href="https://www.instagram.com/el.individuo" target="_blank"><i class="fa fa-instagram fa-2"></i></a>
 <a href="https://github.com/Duvancho321" target="_blank"><i class="fa fa-github fa-2"></i></a>
+<a href="https://www.linkedin.com/in/duvancho321" target="_blank"><i class="fa fa-linkedin fa-2"></i></a>
 </p>
 </div>
 </div>

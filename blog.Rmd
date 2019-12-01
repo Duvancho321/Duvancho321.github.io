@@ -1,9 +1,12 @@
 ---
-title: "About This Website"
+title: ""
 ---
+
+<div class="col-sm-8 col-sm-offset-2">
 
 More about this website.
 
+</div>
 
 <!-- Aca inicia el footer -->
 </div>
@@ -26,6 +29,7 @@ More about this website.
 <a href="https://twitter.com/DuvanNievesRui1" target="_blank"><i class="fa fa-twitter-square fa-2"></i></a>
 <a href="https://www.instagram.com/el.individuo" target="_blank"><i class="fa fa-instagram fa-2"></i></a>
 <a href="https://github.com/Duvancho321" target="_blank"><i class="fa fa-github fa-2"></i></a>
+<a href="https://www.linkedin.com/in/duvancho321" target="_blank"><i class="fa fa-linkedin fa-2"></i></a>
 </p>
 </div>
 </div>

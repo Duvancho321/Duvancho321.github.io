@@ -1,6 +1,15 @@
 ---
-title: "About This Website"
+title: ""
 ---
+
+<div class="col-sm-8 col-sm-offset-2">
+
+<br>
+
+<font color="#bd1550" size="6"> 
+SOBRE MÍ
+</font>
+
 
 <p align="justify">
 
@@ -41,11 +50,13 @@ Estudiante de Ingeniería Ambiental en la Universidad Nacional de Colombia inter
 CURRICULUM VITAE
 </font>
 
-<left>
+<center>
 <a href="./images/CV.pdf" target="_blank" class= "download" target="_blank">
 <img src="./images/cvi.jpg" alt="Kitten "width="400" height="400" />
 </a> 
-</left>
+</center>
+
+</div>
 
 <!-- Aca inicia el footer -->
 </div>
@@ -68,6 +79,7 @@ CURRICULUM VITAE
 <a href="https://twitter.com/DuvanNievesRui1" target="_blank"><i class="fa fa-twitter-square fa-2"></i></a>
 <a href="https://www.instagram.com/el.individuo" target="_blank"><i class="fa fa-instagram fa-2"></i></a>
 <a href="https://github.com/Duvancho321" target="_blank"><i class="fa fa-github fa-2"></i></a>
+<a href="https://www.linkedin.com/in/duvancho321" target="_blank"><i class="fa fa-linkedin fa-2"></i></a>
 </p>
 </div>
 </div>
