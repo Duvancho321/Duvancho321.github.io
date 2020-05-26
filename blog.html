@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -232,6 +231,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -506,7 +506,7 @@ $(document).ready(function () {
 <header id="header">
 	<div id="head" class="parallax" parallax-speed="2" style="background-position: center -53.0769px;">
 		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="./images/avatarc.png" alt="">
+			<img class="img-circle" src="images/avatarc.png" alt="">
 			<span class="title">Duvan Nieves</span>
 			<span class="tagline" style="color: black;" > Beginner in data analysis <br>
 				<a href="mailto:duvannieves@misena.edu.co" style="color: black;">Contact</a>
@@ -542,7 +542,6 @@ $(document).ready(function () {
                     <a href="about.html">About</a>
                 </li>
                 
-                
             </ul>
 
         </div>
@@ -574,8 +573,32 @@ $(document).ready(function () {
 </div>
 
 
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 0%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: realtive;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  border: none;
+}
+</style>
 <div class="col-sm-8 col-sm-offset-2">
-<p>More about this website.</p>
+<div class="container">
+<p><iframe class="responsive-iframe" src="file_html/presentaciones.html" name="iframe_a"></iframe></p>
+</div>
+<p>
+<a href="https://www.w3schools.com" target="iframe_a">mera</a>
+</p>
 </div>
 <!-- Aca inicia el footer -->
 </div>

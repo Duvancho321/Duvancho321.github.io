@@ -29,6 +29,24 @@ div.desc {
   padding: 10px;
   text-align: center;
 }
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 0%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: realtive;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  border: none;
+}
 </style>
 </head>
 <body>
@@ -54,32 +72,62 @@ div.desc {
 </div>
 
 <div class="gallery">
-  <a class="thumbnail"  target="_blank" href="img_mountains.jpg">
-         <span class="img">
-           <img src="images/pic.png" alt="">
-           <span class="cover"><span class="more">See details →</span></span>
-       </span>
-       <span class="title">Titulo</span>
-  </a>
-</div>
-
-<div class="gallery">
-  <a class="thumbnail"  target="_blank" href="img_mountains.jpg">
-         <span class="img">
-           <img src="images/pic.png" alt="">
-           <span class="cover"><span class="more">See details →</span></span>
-       </span>
-       <span class="title">Titulo</span>
-  </a>
-</div>
-
-<div class="gallery">
   <a class="thumbnail"  target="_blank" href="https://duvancho321.github.io/Material-Unal/">
          <span class="img">
            <img src="images/buho.png" alt="">
            <span class="cover"><span class="more">See details →</span></span>
        </span>
        <span class="title">Material Unal Medellín</span>
+  </a>
+</div>
+
+<div class="gallery">
+  <a class="thumbnail" href="file_html/presentaciones.html">
+         <span class="img">
+           <img src="images/presentacion.gif" alt="">
+           <span class="cover"><span class="more">See details →</span></span>
+       </span>
+       <span class="title">Presentaciones</span>
+  </a>
+</div>
+
+<div class="gallery">
+  <a class="thumbnail"  target="_blank" href="img_mountains.jpg">
+         <span class="img">
+           <img src="images/pic.png" alt="">
+           <span class="cover"><span class="more">See details →</span></span>
+       </span>
+       <span class="title">Titulo</span>
+  </a>
+</div>
+
+<div class="gallery">
+  <a class="thumbnail"  target="_blank" href="img_mountains.jpg">
+         <span class="img">
+           <img src="images/pic.png" alt="">
+           <span class="cover"><span class="more">See details →</span></span>
+       </span>
+       <span class="title">Titulo</span>
+  </a>
+</div>
+
+<div class="gallery">
+  <a class="thumbnail"  target="_blank" href="img_mountains.jpg">
+         <span class="img">
+           <img src="images/pic.png" alt="">
+           <span class="cover"><span class="more">See details →</span></span>
+       </span>
+       <span class="title">Titulo</span>
+  </a>
+</div>
+
+<div class="gallery">
+  <a class="thumbnail"  target="_blank" href="img_mountains.jpg">
+         <span class="img">
+           <img src="images/pic.png" alt="">
+           <span class="cover"><span class="more">See details →</span></span>
+       </span>
+       <span class="title">Titulo</span>
   </a>
 </div>
 

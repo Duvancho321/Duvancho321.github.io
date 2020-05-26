@@ -1,10 +1,39 @@
 ---
 title: ""
 ---
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 0%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: realtive;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  border: none;
+}
+</style>
+
+
+
 
 <div class="col-sm-8 col-sm-offset-2">
 
-More about this website.
+
+
+<div class="container"> 
+  <iframe class="responsive-iframe" src="file_html/presentaciones.html" name="iframe_a"></iframe>
+</div>
+<p><a href="https://www.w3schools.com" target="iframe_a">mera</a></p>
+
+
 
 </div>
 
