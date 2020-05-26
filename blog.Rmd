@@ -31,7 +31,7 @@ title: ""
 <div class="container"> 
   <iframe class="responsive-iframe" src="file_html/presentaciones.html" name="iframe_a" scrolling="no" style=" height: 100px;"></iframe>
 </div>
-<p><a href="https://www.w3schools.com" target="iframe_a">mera</a></p>
+<p><a href="file_html/presentaciones.html" target="iframe_a">mera</a></p>
 
 
 
