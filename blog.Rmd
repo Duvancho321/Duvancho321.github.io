@@ -15,8 +15,8 @@ title: ""
   left: 0;
   bottom: 0;
   right: 0;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   border: none;
 }
 </style>
@@ -29,7 +29,7 @@ title: ""
 
 
 <div class="container"> 
-  <iframe class="responsive-iframe" src="file_html/presentaciones.html" name="iframe_a"></iframe>
+  <iframe class="responsive-iframe" src="file_html/presentaciones.html" name="iframe_a" scrolling="no" style=" height: 100px;"></iframe>
 </div>
 <p><a href="https://www.w3schools.com" target="iframe_a">mera</a></p>
 
