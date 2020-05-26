@@ -24,10 +24,10 @@ output: html_document
 
 
 
-* <a href="https://duvancho321.github.io/presentaciones/AMET/am.html#1" target="iframe_pre">Presentacion AMET</a>
+* <a href="https://duvancho321.github.io/presentaciones/AMET/am.html" target="iframe_pre">Presentacion AMET</a>
 
 <div class="container"> 
-  <iframe class="responsive-iframe" src="" name="iframe_pre" scrolling="no" style="height: 800px"></iframe>
+  <iframe class="responsive-iframe" src="" name="iframe_pre" scrolling="no" style="height: 500px"></iframe>
 </div>
 
 

@@ -64,7 +64,7 @@ div.desc {
 <div class="gallery">
   <a class="thumbnail"  target="_blank" href="https://github.com/Duvancho321/Datos_de_miercoles">
          <span class="img">
-           <img src="images/r4ds.jpg" alt="">
+           <img src="images/r4ds.jpg" style='height: 100%; width: 100%; object-fit: contain'>
            <span class="cover"><span class="more">See details →</span></span>
        </span>
        <span class="title">Datos de miercoles</span>
@@ -74,7 +74,7 @@ div.desc {
 <div class="gallery">
   <a class="thumbnail"  target="_blank" href="https://duvancho321.github.io/Material-Unal/">
          <span class="img">
-           <img src="images/buho.png" alt="">
+           <img src="images/buho.png" style='height: 100%; width: 100%; object-fit: contain'>
            <span class="cover"><span class="more">See details →</span></span>
        </span>
        <span class="title">Material Unal Medellín</span>
@@ -82,9 +82,9 @@ div.desc {
 </div>
 
 <div class="gallery">
-  <a class="thumbnail" href="file_html/presentaciones.html">
+  <a class="thumbnail" target="_blank" href="https://github.com/Duvancho321/presentaciones">
          <span class="img">
-           <img src="images/presentacion.gif" alt="">
+           <img src="images/presentacion.gif" style='height: 100%; width: 100%; object-fit: contain'>
            <span class="cover"><span class="more">See details →</span></span>
        </span>
        <span class="title">Presentaciones</span>
