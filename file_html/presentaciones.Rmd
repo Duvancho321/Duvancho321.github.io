@@ -1,6 +1,37 @@
 ---
-title: 'pre'
+title: ''
 output: html_document
 ---
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 0%; /* 16:9 Aspect Ratio */
+}
 
-lkjjkxcvijxhcksjhckxzcjzxlkcjlzxjclkzxjclkzxjclkxzjc
+.responsive-iframe {
+  position: realtive;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
+
+
+
+* <a href="https://duvancho321.github.io/presentaciones/AMET/am.html#1" target="iframe_pre">Presentacion AMET</a>
+
+<div class="container"> 
+  <iframe class="responsive-iframe" src="" name="iframe_pre" scrolling="no" style="height: 800px"></iframe>
+</div>
+
+
+
+
+
+

@@ -27,11 +27,14 @@ title: ""
 <div class="col-sm-8 col-sm-offset-2">
 
 
+* <a href="file_html/presentaciones.html" target="iframe_a">Presentaciones</a>
+* <a href="index.html" target="iframe_a">Cursos</a>
+* <a href="index.html" target="iframe_a">Prueba_rara</a>
 
 <div class="container"> 
-  <iframe class="responsive-iframe" src="file_html/presentaciones.html" name="iframe_a" scrolling="no" style=" height: 100px;"></iframe>
+  <iframe class="responsive-iframe" src="" name="iframe_a" scrolling="no" style="height: 1000px"></iframe>
 </div>
-<p><a href="file_html/presentaciones.html" target="iframe_a">mera</a></p>
+
 
 
 
